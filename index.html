@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investment Framework Workbook · Will Dowd</title>
+<meta name="description" content="Six investor frameworks ranked by a three-axis weighting model. Composite conviction scoring, eleven-step research workflow, sell discipline, position sizing, bottleneck test, failure log.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#masthead">Skip to content</a>
+
+<button class="toc-toggle" id="tocToggle" aria-label="Toggle contents" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<aside class="toc" id="toc" aria-label="Table of contents">
+  <div class="toc-inner">
+    <div class="toc-head">
+      <div class="toc-edition">Contents</div>
+      <div class="toc-version">v5.4 · April 2026</div>
+    </div>
+    <nav>
+      <ol class="toc-list">
+        <li class="toc-part"><a href="#part-i">Part I — The theory</a>
+          <ol>
+            <li><a href="#how-to-use">How to use this workbook</a></li>
+            <li><a href="#preface">Preface: research methods</a></li>
+            <li><a href="#frameworks">The six investor frameworks</a>
+              <ol>
+                <li><a href="#buffett">Warren Buffett (30%)</a></li>
+                <li><a href="#smith">Terry Smith (25%)</a></li>
+                <li><a href="#akre">Chuck Akre (20%)</a></li>
+                <li><a href="#fisher">Philip Fisher (15%)</a></li>
+                <li><a href="#graham">Benjamin Graham (7%)</a></li>
+                <li><a href="#lynch">Peter Lynch (3%)</a></li>
+              </ol>
+            </li>
+            <li><a href="#common-threads">Common threads</a></li>
+            <li><a href="#reading-list">Reading list</a></li>
+          </ol>
+        </li>
+        <li class="toc-part"><a href="#part-ii">Part II — The practice</a>
+          <ol>
+            <li><a href="#screeners">The six screeners</a></li>
+            <li><a href="#weighting">Weighted conviction system</a></li>
+            <li><a href="#calculator">Composite conviction calculator</a></li>
+            <li><a href="#workflow">Research workflow — eleven steps</a></li>
+            <li><a href="#scorecard">Seven-question scorecard</a></li>
+            <li><a href="#firm-research">Firm research guide</a></li>
+            <li><a href="#watchlist">Master watchlist</a></li>
+          </ol>
+        </li>
+        <li class="toc-part"><a href="#part-iii">Part III — The discipline layer</a>
+          <ol>
+            <li><a href="#sell-discipline">Sell discipline</a></li>
+            <li><a href="#position-sizing">Position sizing &amp; margin of safety</a></li>
+            <li><a href="#cyclicality">Cyclicality adjustment</a></li>
+            <li><a href="#bottleneck">Bottleneck test</a></li>
+            <li><a href="#quarterly-check">Quarterly moat trend check</a></li>
+            <li><a href="#failure-log">Failure log</a></li>
+            <li><a href="#full-sequence">Full research sequence</a></li>
+            <li><a href="#end-note">End note</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</aside>
+
+<main class="content">
+
+<!-- ============================== MASTHEAD ============================== -->
+
+<header class="masthead" id="masthead">
+  <div class="masthead-rule"></div>
+  <div class="masthead-inner">
+    <div class="kicker">Investment Framework · Workbook</div>
+    <h1 class="title">A theory of structural compounding</h1>
+    <div class="subtitle">Six investor frameworks, ranked by a three-axis weighting model — composite conviction scoring, eleven-step research workflow, sell discipline, position sizing, bottleneck test, failure log.</div>
+    <div class="byline">
+      <span class="byline-author">By Will Dowd</span>
+      <span class="byline-sep">·</span>
+      <span class="byline-version">Version 5.4</span>
+      <span class="byline-sep">·</span>
+      <span class="byline-date">April 2026</span>
+    </div>
+  </div>
+  <div class="masthead-rule"></div>
+</header>
+
+<!-- ============================== PHILOSOPHY ============================== -->
+
+<section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+  <div class="section-label">Prologue</div>
+  <h2 class="display-h" id="philosophy-title">My investment philosophy</h2>
+  <div class="drop-cap">
+    <p>I invest in businesses that either already own <em>a structural position the world cannot function without,</em> have crossed the threshold from brand into <em>cultural institution that people incorporate into their own identity,</em> or serve as the <em>essential pipes through which entire industries must flow.</em></p>
+  </div>
+
+  <p>I only buy them, however, when the market has handed me a meaningful discount to their intrinsic value — the underlying worth of the business independent of what the market declares on any given day — because, as Warren Buffett said:</p>
+
+  <blockquote class="pull-quote">
+    <p>It is far better to buy a wonderful company at a fair price than a fair company at a wonderful price.</p>
+    <footer>— Warren Buffett</footer>
+  </blockquote>
+
+  <p>I also reserve the right to recognize when a disruptor is moving with such velocity and inevitability toward one of those three destinations that waiting for arrival means missing the journey, because the most permanent empires in business history all looked like competitors once before they became the only choice.</p>
+
+  <p>My edge is seeing that trajectory early enough to matter while maintaining the discipline to distinguish genuine inevitability from temporary momentum — and <strong>never confusing a great business with a great investment unless the price makes it both simultaneously.</strong></p>
+</section>
+
+<!-- ============================== PART I ============================== -->
+
+<div class="part-divider" id="part-i">
+  <div class="part-label">Part I</div>
+  <div class="part-title">The theory</div>
+  <div class="part-deck">Philosophy, frameworks and foundations</div>
+</div>
+
+<!-- How to use -->
+
+<section id="how-to-use">
+  <h2>How to use this workbook</h2>
+  <p class="lede">Organized to mirror how serious investment decisions actually unfold — from philosophy to framework to candidate identification to verification to action. Each section builds directly on the one before it.</p>
+
+  <p><strong>Part I</strong> establishes the intellectual foundation. The investment philosophy defines what you are looking for. The six investor frameworks define the lenses through which you evaluate candidates. The common threads reveal what all six frameworks agree on. The reading list tells you where to go deeper. Read Part I end to end once, then return to specific investor chapters when a screen surfaces a relevant candidate.</p>
+
+  <p><strong>Part II</strong> is the operating manual. The screeners surface raw candidates. The weighted conviction system ranks them by a methodology derived from documented track record, academic empirical support and philosophy alignment. The eleven-step research workflow tells you exactly how to verify a candidate before committing capital. Run Part II every time a new name appears in a screen.</p>
+
+  <p><strong>Part III</strong> is the discipline layer. It exists because good entry decisions can still be undone by poor exit decisions, wrong sizing or the failure to learn from mistakes. Apply Part III before initiating a position and consistently after closing one.</p>
+
+  <div class="callout callout-dark">
+    <div class="callout-label">The logical chain</div>
+    <ol class="chain">
+      <li>Philosophy defines what you are looking for.</li>
+      <li>Frameworks give you six independent lenses to evaluate it.</li>
+      <li>Screeners surface the raw candidates.</li>
+      <li>Conviction scoring ranks them by weight of evidence.</li>
+      <li>Research workflow verifies before you commit capital.</li>
+      <li>Discipline layer governs how you act on and exit positions.</li>
+      <li>Failure log closes the loop — the framework updates from evidence.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Preface -->
+
+<section id="preface">
+  <h2>Preface: research methods</h2>
+  <p>Each investor framework has both a practitioner tradition and an academic literature. The most useful academic material lives at the intersection of the investor's methodology and an empirical test of that methodology. When searching academic databases, construct queries that combine the investor or methodology as a subject term with a second concept — the specific factor being tested or the market being studied.</p>
+
+  <h3>Example search constructions applicable across JSTOR, SSRN, NBER and Google Scholar</h3>
+  <ul class="clean-list">
+    <li><strong>Buffett:</strong> combine "Berkshire Hathaway" with "quality factor" or "low beta"</li>
+    <li><strong>Graham:</strong> combine "net current asset value" or "NCAV" with "returns"</li>
+    <li><strong>Lynch:</strong> combine "PEG ratio" with "growth investing"</li>
+    <li><strong>Fisher:</strong> combine "scuttlebutt" or "qualitative analysis" with "long-term returns"</li>
+    <li><strong>Smith and Akre:</strong> combine "quality factor" or "return on capital" with "compounding"</li>
+  </ul>
+
+  <p>Where a source is a popular-press book rather than academic literature, it is noted explicitly in the framework sections below. The goal is not to find validation — it is to understand where each framework has been tested, where it held up and where it has not.</p>
+</section>
+
+<!-- The six frameworks -->
+
+<section id="frameworks">
+  <h2>The six investor frameworks</h2>
+  <p class="lede">Presented in order of their composite conviction weight — highest first. Read the frameworks that carry the most predictive weight first. When time is limited, the Buffett, Smith and Akre chapters are the priority.</p>
+</section>
+
+<!-- Buffett -->
+
+<article class="framework" id="buffett">
+  <div class="framework-header">
+    <div class="framework-weight">30%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 1</span>
+      <h3>Warren Buffett</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Buy a wonderful business at a fair price. Never confuse a great business with a great investment unless the price makes it both.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Warren Buffett describes himself as "85 percent Graham and 15 percent Fisher," though by the mid-1970s the Fisher share had grown considerably. The mature Buffett framework is built around a few durable ideas. A stock is a fractional ownership stake in a real business, not a ticker to be traded. The right holding period is "forever." The market, personified as Mr. Market, offers quotes daily that the investor is free to ignore; price is what you pay, value is what you get.</p>
+  <p>Buffett's later emphasis on durable competitive advantage — moats — shifted Berkshire's portfolio from Graham-style cigar butts toward high-return franchises such as See's Candies, Coca-Cola and American Express. The emphasis on owner-oriented management and rational capital allocation is arguably his most distinctive contribution to investment thinking.</p>
+
+  <h4>Key screening criteria</h4>
+  <ul class="criteria">
+    <li>Durable competitive advantage — pricing power, brand, network effects, low-cost position or regulatory moat.</li>
+    <li>Return on equity consistently above 15 percent without material leverage.</li>
+    <li>Earnings predictability across at least one full economic cycle.</li>
+    <li>Low capital intensity — businesses that don't require heavy reinvestment to grow.</li>
+    <li>Management that is candid, owner-oriented and rational about capital allocation.</li>
+    <li>Purchase price below a conservative estimate of intrinsic value, with a margin of safety.</li>
+    <li>Conservative balance sheet; debt used sparingly.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>Berkshire Hathaway shareholder letters, 1965 to present. The primary text — free at berkshirehathaway.com.</li>
+    <li>"The Superinvestors of Graham-and-Doddsville," <em>Hermes</em>, 1984. Buffett's empirical defense of value investing.</li>
+    <li>"The Snowball" by Alice Schroeder (2008). The authoritative biography.</li>
+    <li>"Poor Charlie's Almanack," Peter Kaufman, ed. (2005).</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>Frazzini, Kabiller and Pedersen, "Buffett's Alpha" (<em>Financial Analysts Journal</em>, 2018): when returns are decomposed against Fama-French factors plus betting against beta and quality minus junk, Buffett's alpha becomes statistically indistinguishable from zero. The paper is usually cited as supportive — it tells us Buffett's approach is replicable in principle but hard in practice because stable, cheap, permanent leverage is rare.</p>
+</article>
+
+<!-- Smith -->
+
+<article class="framework" id="smith">
+  <div class="framework-header">
+    <div class="framework-weight">25%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 2</span>
+      <h3>Terry Smith</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Buy good companies. Don't overpay. Do nothing. Cash conversion is the lie detector of financial statements.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Terry Smith founded Fundsmith in 2010. Fundsmith's philosophy reduces to three rules: buy good companies, don't overpay, do nothing. By good, Smith means companies that consistently generate high returns on operating capital employed — 20 percent or more — convert most of their accounting profits to cash, have durable competitive moats and fund their growth from retained cash flow rather than equity or debt issuance.</p>
+  <p>The "do nothing" rule reflects the empirical observation that trading costs and tax drag consume most of the theoretical benefit of active reallocation when the underlying portfolio already consists of high-quality compounders.</p>
+
+  <h4>Key screening criteria</h4>
+  <ul class="criteria">
+    <li>Return on capital employed above 20 percent, sustained across a decade.</li>
+    <li>Cash conversion — free cash flow equal to 90 to 100 percent of net income.</li>
+    <li>Gross and operating margins that rank in the top quartile of the industry.</li>
+    <li>Low capital intensity; limited need for acquisitions or heavy reinvestment.</li>
+    <li>Resilience through economic cycles — tested by looking at results in 2001, 2008 and 2020.</li>
+    <li>Conservative balance sheet and limited financial engineering.</li>
+    <li>Valuation that is reasonable relative to the quality.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>"Accounting for Growth" (1992). Smith's analysis of accounting games.</li>
+    <li>"Investing for Growth" (2020). An anthology of his Fundsmith shareholder letters.</li>
+    <li>Fundsmith annual owner's manual and letters at fundsmith.co.uk.</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>The quality factor — high ROIC, high ROE, low debt — underpins Smith's screening criteria and has the strongest academic backing in this workbook. Primary sources: Novy-Marx, "The Other Side of Value" (<em>Review of Financial Studies</em>, 2013) and Asness, Frazzini and Pedersen, "Quality Minus Junk" (<em>Review of Accounting Studies</em>, 2019). Both available through JSTOR.</p>
+</article>
+
+<!-- Akre -->
+
+<article class="framework" id="akre">
+  <div class="framework-header">
+    <div class="framework-weight">20%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 3</span>
+      <h3>Chuck Akre</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Compounding is the goal. The reinvestment moat is the engine. A business that redeploys retained earnings at high rates indefinitely is categorically different from one that plateaus.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Chuck Akre founded Akre Capital Management in 1989. He describes himself as a compounding investor and his framework is best known as the three-legged stool. The image is deliberate: a three-legged stool cannot wobble on uneven ground the way a four-legged stool can. All three legs must be present simultaneously for the investment to stand firm.</p>
+  <p>Valuation is a prerequisite but not a central screen. Akre prefers to pay a fair price for a compounder and hold it for decades rather than trade in and out based on short-term multiple compression.</p>
+
+  <h4>Key screening criteria — the three legs</h4>
+  <ul class="criteria numbered">
+    <li><strong>Extraordinary business:</strong> durable and predictable return on equity and free cash flow. The business generates more capital than it consumes consistently across cycles.</li>
+    <li><strong>Talented, honest management:</strong> skin in the game, long tenure, compensation aligned with long-term shareholder value and a track record of rational capital allocation.</li>
+    <li><strong>Reinvestment moat:</strong> the ability to redeploy retained earnings at the same high rates the company already earns. Without this, a great business becomes a cash cow; with it, a compounding machine.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>Akre Capital Management quarterly letters at akrecapital.com.</li>
+    <li>"The Art of (Not) Selling" (2020) — why selling a true compounder is usually an error.</li>
+    <li>"100 Baggers" by Christopher Mayer (2015). Built on the same reinvestment-rate math.</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>The same quality factor literature supporting Smith supports Akre. The reinvestment moat concept is additionally supported by McKinsey's Valuation research (Koller, Goedhart and Wessels, 7th edition 2020) linking long-run value creation to return on incremental invested capital multiplied by the reinvestment rate. No significant academic challenge to Akre's three-leg framework exists.</p>
+</article>
+
+<!-- Fisher -->
+
+<article class="framework" id="fisher">
+  <div class="framework-header">
+    <div class="framework-weight">15%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 4</span>
+      <h3>Philip Fisher</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Own a small number of outstanding companies for decades. The most important information about a business never appears in its financial statements.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Philip Fisher is often called the father of growth investing. Where Graham was quantitative and accounting-driven, Fisher was qualitative and management-driven. His thesis is that extraordinary long-term returns come from owning a small number of outstanding companies for decades. Price matters less than the business, and selling a great company because it has gone up too much is usually a mistake.</p>
+  <p>His signature technique is scuttlebutt: gathering evidence about a company's quality by interviewing competitors, suppliers, customers, former employees and trade contacts. The most valuable information is not in SEC filings and cannot be reverse-engineered from numbers.</p>
+
+  <h4>Key screening criteria</h4>
+  <ul class="criteria">
+    <li>Products or services with a large enough market to support years of growth.</li>
+    <li>Management committed to developing new products as the current line matures.</li>
+    <li>Research and development effective relative to company size.</li>
+    <li>Above-average sales organization.</li>
+    <li>Worthwhile profit margin, with active work to maintain or improve it.</li>
+    <li>Outstanding labor and personnel relations.</li>
+    <li>Depth of management below the top layer.</li>
+    <li>Strong cost analysis and accounting controls.</li>
+    <li>A long-range rather than short-range profit outlook.</li>
+    <li>Growth financed without frequent equity issuance that dilutes shareholders.</li>
+    <li>Management candor during difficult periods, not just good ones.</li>
+    <li>Management of unquestionable integrity.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>"Common Stocks and Uncommon Profits" (1958). The foundational text.</li>
+    <li>"Conservative Investors Sleep Well" (1975). Expands the 15 points.</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>Asness, Frazzini and Pedersen's "Quality Minus Junk" (2019) formalizes many Fisher traits as a composite quality factor. Novy-Marx (2013) shows that gross profitability is a priced factor. The main limitation: no peer-reviewed replication of the 15-point method exists as a direct test. Fisher managed private accounts from 1931 until his retirement in 1999 — no independently auditable public performance record exists, which is a genuine gap disclosed rather than papered over.</p>
+</article>
+
+<!-- Graham -->
+
+<article class="framework" id="graham">
+  <div class="framework-header">
+    <div class="framework-weight">7%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 5</span>
+      <h3>Benjamin Graham</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Buy at a meaningful discount to intrinsic value. Mr. Market will always offer you a price. You are never obligated to take it.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Benjamin Graham is the intellectual founder of systematic value investing. Three concepts define his framework. Intrinsic value is the present value of a business's future earning power, estimated conservatively from tangible data. Margin of safety is the discount between intrinsic value and purchase price, which absorbs forecasting error and bad luck. Mr. Market is the allegorical partner who offers daily quotes driven by emotion rather than fundamentals.</p>
+  <p>In this workbook Graham functions primarily as a balance sheet safety floor — a 7 percent weight reflecting its value as a sanity check rather than a primary conviction driver. A business can be cheap because it deserves to be cheap.</p>
+
+  <h4>Key screening criteria</h4>
+  <ul class="criteria">
+    <li>Adequate size — annual sales above roughly $500 million today.</li>
+    <li>Strong financial condition — current ratio at least 2.0; long-term debt less than net current assets.</li>
+    <li>Earnings stability — positive earnings in each of the past 10 years.</li>
+    <li>Dividend record — uninterrupted payments for at least 20 years.</li>
+    <li>Earnings growth — at least 33 percent per-share growth over 10 years.</li>
+    <li>Moderate price-to-earnings — at most 15 on a three-year average earnings base.</li>
+    <li>Moderate price-to-book — at most 1.5. Graham accepts a combined P/E times P/B of 22.5.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>"Security Analysis" with David Dodd (1934; most recent edition 2008). The definitive technical treatise.</li>
+    <li>"The Intelligent Investor" (1949; 4th revised edition 1973). Buffett called chapters 8 and 20 "the two most important essays ever written about investing."</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>Oppenheimer's 1986 study found average annual returns of 28.3 percent from Graham's net-net strategy versus 10.7 percent for the benchmark. However, Fama and French's own 2020 paper "The Value Premium" acknowledges the premium has weakened in recent decades, particularly in the United States — a challenge coming from the framework's own academic champions.</p>
+</article>
+
+<!-- Lynch -->
+
+<article class="framework" id="lynch">
+  <div class="framework-header">
+    <div class="framework-weight">3%</div>
+    <div class="framework-name">
+      <span class="framework-kicker">Framework 6</span>
+      <h3>Peter Lynch</h3>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">In one sentence</div>
+    <p>Invest in what you know. Find undervalued growth before Wall Street does. If you can explain the investment thesis in two minutes with a crayon, you understand the business.</p>
+  </div>
+
+  <h4>Core investment philosophy</h4>
+  <p>Peter Lynch ran Fidelity's Magellan Fund from May 1977 to April 1990 and compounded capital at roughly 29 percent a year — the strongest documented track record in this workbook. His philosophy rests on three pillars. First, invest in what you know. Second, understand the business model before you buy. Third, think like an owner with a long horizon.</p>
+  <p>Lynch carries the highest track record score in the three-axis weighting model but the lowest academic support score, because the PEG ratio — his primary metric — has been directly challenged in peer-reviewed literature. The 3 percent weight reflects that imbalance honestly.</p>
+
+  <h4>Key screening criteria</h4>
+  <ul class="criteria">
+    <li>PEG ratio at most 1.0 — Lynch called this fair value. At most 0.5 is a bargain. Above 2.0 is expensive.</li>
+    <li>Earnings growth sustained over at least five years, ideally 20 to 25 percent for fast growers.</li>
+    <li>Debt-to-equity at most 0.5; cash greater than long-term debt.</li>
+    <li>Inventory growth not outpacing sales growth — a classic warning sign.</li>
+    <li>Rising insider buying and stock buybacks.</li>
+    <li>Low institutional ownership — implies the stock is still undiscovered.</li>
+    <li>A simple, understandable story with a defensible niche.</li>
+  </ul>
+
+  <h4>Most important books</h4>
+  <ul class="clean-list">
+    <li>"One Up on Wall Street" (1989). The foundational text.</li>
+    <li>"Beating the Street" (1993). Case studies from the 1992 Barron's Roundtable picks.</li>
+  </ul>
+
+  <h4>Academic support and critique</h4>
+  <p>Peters (1991) found positive risk-adjusted returns from buying low-PEG growth stocks. However, Voss, "The Fallacy of Price/Earnings to Growth Ratios" (<em>Journal of Private Equity</em>, vol. 14, no. 4, fall 2011, pp. 56–60) directly challenges PEG ratio validity, arguing it treats all growth as equally valuable regardless of capital requirements or competitive durability. Hoover and Sterbenz (<em>Journal of Financial Education</em>, vol. 29, spring 2003) also examine its limitations. Both available through JSTOR. Note that these critiques target the PEG metric specifically, not Lynch's broader approach of buying understandable growth at a reasonable price — an approach that draws indirect support from the quality factor literature cited above.</p>
+</article>
+
+<!-- Common threads -->
+
+<section id="common-threads">
+  <h2>Common threads across the six frameworks</h2>
+  <p class="lede">Reading the six frameworks side by side, seven consistent principles emerge. These represent the distilled consensus of the most successful investors in documented history.</p>
+
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Principle</th><th scope="col">What it means in practice</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Stocks are ownership</td><td>A share is a fractional claim on a real business — not a ticker to trade.</td></tr>
+        <tr><td>Long holding periods</td><td>Fisher, Buffett, Smith and Akre argue for decade-plus horizons.</td></tr>
+        <tr><td>Margin of safety</td><td>Graham formalized it as a price discount. Buffett retains the phrase. Smith and Akre reframe it as business quality deep enough to absorb mistakes.</td></tr>
+        <tr><td>Return on capital</td><td>Buffett, Smith and Akre screen on it explicitly. Fisher's 15 points imply it. Only Graham's defensive framework tolerates low-ROE stocks.</td></tr>
+        <tr><td>Management quality</td><td>Explicit in Fisher, Buffett, Akre and Smith. Implicit in Lynch's preference for insider buying.</td></tr>
+        <tr><td>Skepticism of consensus</td><td>Mr. Market is Graham's metaphor and it animates the whole tradition. The quoted price can be wrong, often for long stretches.</td></tr>
+        <tr><td>Cash flow over profit</td><td>Smith's cash-conversion test is most explicit. Buffett's owner earnings, Akre's free cash flow and Graham's dividend history are versions of the same principle.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="synthesis">Graham sets the floor: a quantitative framework that works even without qualitative edge. Fisher supplies the ceiling: a qualitative framework for identifying the small number of businesses that could compound for decades. Buffett is the synthesis. Lynch is the translator. Smith is the modern discipline. Akre adds the reinvestment dimension.</p>
+</section>
+
+<!-- Reading list -->
+
+<section id="reading-list">
+  <h2>Reading list</h2>
+  <p class="lede">Ordered from foundational to advanced. Sources marked with an asterisk were added based on deep research into the academic and institutional foundations of the framework.</p>
+
+  <div class="reading-grid">
+    <div class="reading-col">
+      <h4>Foundational</h4>
+      <ul class="clean-list">
+        <li>"The Intelligent Investor," Benjamin Graham, 1949. Read chapters 8 and 20 twice.</li>
+        <li>"One Up on Wall Street," Peter Lynch, 1989.</li>
+        <li>"Common Stocks and Uncommon Profits," Philip Fisher, 1958.</li>
+      </ul>
+    </div>
+
+```
+<div class="reading-col">
+  <h4>Intermediate</h4>
+  <ul class="clean-list">
+    <li>"The Essays of Warren Buffett," Lawrence Cunningham, ed., most recent edition 2022.</li>
+    <li>Berkshire Hathaway shareholder letters, 1977 to present.</li>
+    <li>"Berkshire's Past, Present and Future," Buffett special letter, 2014.</li>
+    <li>"Investing for Growth," Terry Smith, 2020.</li>
+    <li>"Poor Charlie's Almanack," Peter Kaufman, ed., 2005.</li>
+    <li>* "Something of Value," Howard Marks, Oaktree Capital.</li>
+    <li>* "The Calculus of Value," Howard Marks, Oaktree Capital.</li>
+  </ul>
+</div>
+
+<div class="reading-col">
+  <h4>Advanced</h4>
+  <ul class="clean-list">
+    <li>"Security Analysis," Graham and Dodd, 1934; use the 6th edition (2008).</li>
+    <li>Akre Capital Management quarterly commentary archives at akrecapital.com.</li>
+    <li>"Expectations Investing," Rappaport and Mauboussin, revised edition 2021.</li>
+    <li>"100 Baggers," Christopher Mayer, 2015.</li>
+    <li>* "Valuing Young, Start-up and Growth Companies," Damodaran, NYU Stern.</li>
+    <li>* "Narrative and Numbers," Damodaran, NYU Stern.</li>
+  </ul>
+</div>
+
+<div class="reading-col">
+  <h4>Academic layer</h4>
+  <ul class="clean-list">
+    <li>"Buffett's Alpha," Frazzini, Kabiller and Pedersen, <em>Financial Analysts Journal</em>, 2018.</li>
+    <li>"Quality Minus Junk," Asness, Frazzini and Pedersen, <em>Review of Accounting Studies</em>, 2019.</li>
+    <li>"The Other Side of Value," Novy-Marx, <em>Journal of Financial Economics</em>, 2013.</li>
+    <li>* "Bottlenecks, Modules and Dynamic Architectural Capabilities," Baldwin, Harvard Business School.</li>
+    <li>* "Network Effects," Harvard Business School.</li>
+    <li>Morningstar Guide to Equity Research — methodology for fair value, economic moat and moat trend.</li>
+  </ul>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- ============================== PART II ============================== -->
+
+<div class="part-divider" id="part-ii">
+  <div class="part-label">Part II</div>
+  <div class="part-title">The practice</div>
+  <div class="part-deck">Screeners, scoring and research workflow</div>
+</div>
+
+<!-- Six screeners -->
+
+<section id="screeners">
+  <h2>The six screeners</h2>
+  <p class="lede">Each screen is calibrated to the corresponding investor's core philosophy. Run all six simultaneously. A company that survives multiple screens is being evaluated from multiple independent angles. That convergence is the signal — not the count alone, but the weighted composite score derived from which specific frameworks agree.</p>
+
+  <div class="table-wrap">
+    <table class="data-table screeners">
+      <thead>
+        <tr><th scope="col">Screen</th><th scope="col">Criteria</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lynch GARP</td><td>PEG ≤ 1.0 · P/E ≤ 20 · EPS growth ≥ 15% · ROE ≥ 15% · D/E ≤ 0.5 · Cap $1B–$50B</td></tr>
+        <tr><td>Buffett Quality</td><td>ROE ≥ 15% · ROIC ≥ 12% · P/E ≤ 22 · P/B ≤ 5 · D/E ≤ 0.5 · Cap ≥ $10B</td></tr>
+        <tr><td>Terry Smith</td><td>ROE ≥ 20% · ROIC ≥ 20% · P/E ≤ 25 · D/E ≤ 0.5 · Cap ≥ $5B</td></tr>
+        <tr><td>Graham Deep Value</td><td>P/E ≤ 15 · P/B ≤ 1.5 · Current ratio ≥ 2.0 · D/E ≤ 0.5 · ROE ≥ 10% · Cap ≥ $1B</td></tr>
+        <tr><td>Chuck Akre</td><td>ROE ≥ 20% · ROIC ≥ 15% · EPS growth ≥ 12% · D/E ≤ 0.75 · 52-week pullback ≥ 10% · Cap ≥ $2B</td></tr>
+        <tr><td>Phil Fisher</td><td>EPS growth ≥ 20% · ROE ≥ 15% · PEG ≤ 1.5 · P/E ≤ 30 · D/E ≤ 0.5 · Cap ≥ $1B</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Screener-to-framework map</h3>
+  <p>When a name surfaces in a screen, reread the matching chapter in Part I before completing Step 3 of the research workflow.</p>
+
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Screen</th><th scope="col">Part I chapter</th><th scope="col">What you're checking for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lynch GARP</td><td>Peter Lynch</td><td>Understandable story, real earnings growth, PEG actually near 1</td></tr>
+        <tr><td>Buffett Quality</td><td>Warren Buffett</td><td>Durable moat; pricing power; owner-oriented management</td></tr>
+        <tr><td>Terry Smith</td><td>Terry Smith</td><td>High ROCE, cash conversion 90 to 100%, low capital intensity</td></tr>
+        <tr><td>Graham Deep Value</td><td>Benjamin Graham</td><td>Is the cheapness a real margin of safety or a value trap?</td></tr>
+        <tr><td>Chuck Akre</td><td>Chuck Akre</td><td>Three legs: business, management, reinvestment moat</td></tr>
+        <tr><td>Phil Fisher</td><td>Philip Fisher</td><td>Fifteen points; scuttlebutt where possible; management integrity</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Weighting -->
+
+<section id="weighting">
+  <h2>Weighted conviction system</h2>
+  <p class="lede">Not all six frameworks carry equal predictive power. A company passing Lynch and Graham is a very different signal than one passing Buffett and Smith. Each framework is scored on three independent axes, averaged and normalized to produce a final weight. The weights are derived from a systematic process, not from opinion.</p>
+
+  <h3>How the weights were derived — three axes</h3>
+
+  <div class="axes-grid">
+    <div class="axis">
+      <div class="axis-number">Axis 1</div>
+      <div class="axis-title">Documented track record</div>
+      <div class="axis-flag">Objective</div>
+      <p>Score 1 to 5 based on the fund manager's verified compounded annual return relative to the S&amp;P 500 over the longest available period. Where no auditable public record exists, the gap is disclosed rather than estimated.</p>
+    </div>
+
+```
+<div class="axis">
+  <div class="axis-number">Axis 2</div>
+  <div class="axis-title">Academic empirical support</div>
+  <div class="axis-flag">Objective</div>
+  <p>Score 1 to 5 based on the strength of peer-reviewed research supporting the framework's core screening methodology. Studies that directly challenge a framework's primary metric are weighted against it.</p>
+</div>
+
+<div class="axis">
+  <div class="axis-number">Axis 3</div>
+  <div class="axis-title">Philosophy alignment</div>
+  <div class="axis-flag axis-flag-sub">Explicitly subjective</div>
+  <p>Score 1 to 5 based on how directly the framework's criteria identify businesses with structural monopoly characteristics, cultural permanence or essential-pipe positioning. These scores are explicitly subjective and will evolve as the workbook accumulates its own performance record.</p>
+</div>
+```
+
+  </div>
+
+  <h3>Axis 1 — Track record scores</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Framework</th><th scope="col">CAGR</th><th scope="col">Score</th><th scope="col">Source and verification status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lynch GARP</td><td>29%</td><td class="num">5 / 5</td><td>Fidelity Magellan Fund, 1977–1990. Sourced from Fidelity historical disclosures and Lynch's books published by Simon and Schuster. Verified.</td></tr>
+        <tr><td>Buffett Quality</td><td>~19.8%</td><td class="num">5 / 5</td><td>Berkshire Hathaway, 1965–2023 vs. 10.2% S&amp;P 500. Sourced from Berkshire annual shareholder letters. Verified.</td></tr>
+        <tr><td>Chuck Akre</td><td>~16%</td><td class="num">4 / 5</td><td>Akre Focus Fund since August 2009. Sourced from Akre Capital Management at akrecapital.com. Approximation — verify before publication.</td></tr>
+        <tr><td>Terry Smith</td><td>~15%</td><td class="num">4 / 5</td><td>Fundsmith Equity Fund since November 2010. Sourced from Fundsmith at fundsmith.co.uk. Approximation — verify before publication.</td></tr>
+        <tr><td>Graham</td><td>No fund</td><td class="num">3 / 5</td><td>No auditable fund return. Validated through Fama-French value factor research (<em>Journal of Finance</em>, 1992; <em>Journal of Financial Economics</em>, 1993). Score reflects the factor's documented premium, not a personal track record.</td></tr>
+        <tr><td>Phil Fisher</td><td>No record</td><td class="num">2 / 5</td><td>Managed private accounts at Fisher and Company, 1931–1999. No independently auditable public performance record exists. Genuine gap — disclosed rather than estimated.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Axis 2 — Academic empirical support scores</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Framework</th><th scope="col">Score</th><th scope="col">Primary support</th><th scope="col">Primary challenge</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Buffett</td><td class="num">5 / 5</td><td>Quality factor: Novy-Marx (2013), Asness et al. (2019)</td><td>No significant challenge to the quality factor as a whole.</td></tr>
+        <tr><td>Terry Smith</td><td class="num">5 / 5</td><td>Same quality factor literature as Buffett.</td><td>None substantive.</td></tr>
+        <tr><td>Chuck Akre</td><td class="num">5 / 5</td><td>Same quality factor literature. Reinvestment rate math supported by McKinsey Valuation research.</td><td>None substantive.</td></tr>
+        <tr><td>Graham</td><td class="num">4 / 5</td><td>Fama-French value factor papers (1992, 1993).</td><td>Fama-French's own 2020 paper acknowledges the premium has weakened, particularly in the U.S.</td></tr>
+        <tr><td>Phil Fisher</td><td class="num">3 / 5</td><td>Qualitative moat indicators indirectly supported by quality factor research.</td><td>No peer-reviewed replication of the 15-point method exists.</td></tr>
+        <tr><td>Lynch GARP</td><td class="num">1 / 5</td><td>Peters (1991) found positive returns from low-PEG stocks.</td><td>Voss (2011) and Hoover-Sterbenz (2003) directly challenge PEG ratio validity. Both via JSTOR.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Axis 3 — Philosophy alignment scores <span class="h3-note">(subjective)</span></h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Framework</th><th scope="col">Score</th><th scope="col">Reasoning</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Buffett</td><td class="num">5 / 5</td><td>Directly screens for durable competitive advantage, pricing power and capital efficiency — the three characteristics most consistent with structural indispensability.</td></tr>
+        <tr><td>Terry Smith</td><td class="num">5 / 5</td><td>ROCE and cash conversion select for businesses that dominate their category economically. Resilience-through-cycles test identifies businesses with non-optional demand.</td></tr>
+        <tr><td>Chuck Akre</td><td class="num">5 / 5</td><td>The reinvestment moat is the most direct expression of compounding indispensability. A business that deploys retained capital at high rates indefinitely becomes harder to displace over time.</td></tr>
+        <tr><td>Phil Fisher</td><td class="num">4 / 5</td><td>Qualitative depth identifies management integrity and competitive strength. Loses one point because no quantitative screen for pricing power or bottleneck position is included.</td></tr>
+        <tr><td>Graham</td><td class="num">2 / 5</td><td>Deep value screening identifies statistical cheapness, not structural dominance. Least consistent with the structural permanence philosophy.</td></tr>
+        <tr><td>Lynch GARP</td><td class="num">2 / 5</td><td>GARP identifies reasonably-priced growth — consistent with good businesses but not specifically with structural monopoly, cultural permanence or essential pipes.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Three-axis composite and final weights</h3>
+  <div class="table-wrap">
+    <table class="data-table composite">
+      <thead>
+        <tr><th scope="col">Framework</th><th scope="col">Track record</th><th scope="col">Academic</th><th scope="col">Philosophy</th><th scope="col">Average</th><th scope="col">Weight</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Buffett Quality</td><td class="num">5</td><td class="num">5</td><td class="num">5</td><td class="num">5.00</td><td class="num weight-hi">30%</td></tr>
+        <tr><td>Terry Smith</td><td class="num">4</td><td class="num">5</td><td class="num">5</td><td class="num">4.67</td><td class="num weight-hi">25%</td></tr>
+        <tr><td>Chuck Akre</td><td class="num">4</td><td class="num">5</td><td class="num">5</td><td class="num">4.67</td><td class="num weight-hi">20%</td></tr>
+        <tr><td>Phil Fisher</td><td class="num">2</td><td class="num">3</td><td class="num">4</td><td class="num">3.00</td><td class="num">15%</td></tr>
+        <tr><td>Graham Deep Value</td><td class="num">3</td><td class="num">4</td><td class="num">2</td><td class="num">3.00</td><td class="num">7%</td></tr>
+        <tr><td>Lynch GARP</td><td class="num">5</td><td class="num">1</td><td class="num">2</td><td class="num">2.67</td><td class="num">3%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout-blue">
+    <div class="callout-label">Note on Akre vs. Smith</div>
+    <p>Smith and Akre produce identical raw averages of 4.67. Akre is weighted lower at 20% vs. Smith's 25% because the reinvestment moat criterion requires qualitative judgment that is harder to apply consistently than Smith's quantitative cash conversion and ROCE tests. A case can be made for reversing these weights. This is the one weighting decision in the framework that a reasonable analyst could reach differently.</p>
+  </div>
+
+  <div class="callout callout-blue">
+    <div class="callout-label">Note on Fisher</div>
+    <p>Fisher's 15% weight is arguably generous given the absence of any auditable track record (axis 1: 2/5). The weight reflects the qualitative depth of the framework and its philosophy alignment. If verifiable performance data surfaces that is weak, this weight should be reconsidered.</p>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">The Graham paradox</div>
+    <p>Graham ranks lowest in predictive weight despite being the intellectual father of the entire tradition. Buffett learned margin of safety and intrinsic value from Graham — then evolved the framework by adding the moat dimension under Munger's influence. Graham catches cheap stocks. Buffett catches wonderful businesses that happen to be cheap. The original genius is irreplaceable. The evolution is more powerful.</p>
+  </div>
+
+  <p class="disclosure"><em>Methodology disclosure: Framework weights are derived from three independently scored axes — documented track record, peer-reviewed academic empirical support and alignment with the stated investment philosophy — averaged and normalized to 100 percent. Track record figures for Lynch and Buffett are verified from primary sources. Smith and Akre figures are approximations subject to verification at fundsmith.co.uk and akrecapital.com respectively. Academic sources are available through JSTOR and the Review of Financial Studies. Philosophy alignment scores are subjective and will evolve as the framework accumulates its own performance record.</em></p>
+</section>
+
+<!-- Composite conviction calculator -->
+
+<section id="calculator">
+  <h2>Composite conviction calculator</h2>
+  <p class="lede">For each candidate, record which frameworks pass. The composite score determines position size. This is more precise than counting screens because it weights the evidence by the quality of each framework.</p>
+
+  <div class="entry-fields">
+    <div class="field"><label>Company</label><span class="field-line"></span></div>
+    <div class="field"><label>Symbol</label><span class="field-line"></span></div>
+    <div class="field"><label>Date</label><span class="field-line"></span></div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data-table calc-table">
+      <thead>
+        <tr><th scope="col">Framework</th><th scope="col">Weight</th><th scope="col">Pass? (Y/N)</th><th scope="col">Points earned</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Buffett Quality</td><td class="num">30%</td><td class="check-cell"></td><td class="num">+30 if yes</td></tr>
+        <tr><td>Terry Smith</td><td class="num">25%</td><td class="check-cell"></td><td class="num">+25 if yes</td></tr>
+        <tr><td>Chuck Akre</td><td class="num">20%</td><td class="check-cell"></td><td class="num">+20 if yes</td></tr>
+        <tr><td>Phil Fisher</td><td class="num">15%</td><td class="check-cell"></td><td class="num">+15 if yes</td></tr>
+        <tr><td>Graham Deep Value</td><td class="num">7%</td><td class="check-cell"></td><td class="num">+7 if yes</td></tr>
+        <tr><td>Lynch GARP</td><td class="num">3%</td><td class="check-cell"></td><td class="num">+3 if yes</td></tr>
+        <tr class="total-row"><td><strong>Composite score</strong></td><td class="num"><strong>100%</strong></td><td class="check-cell"></td><td class="num"><strong>____ / 100</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Score to position size</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Score</th><th scope="col">Conviction</th><th scope="col">Target position</th><th scope="col">What it means</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>75 to 100</td><td>Extremely high</td><td>5 to 8% of portfolio</td><td>Buffett and Smith at minimum. The framework is aligned at its most rigorous levels.</td></tr>
+        <tr><td>50 to 74</td><td>Strong</td><td>3 to 5% of portfolio</td><td>Multiple high-weight frameworks agree. One or two gaps remain.</td></tr>
+        <tr><td>30 to 49</td><td>Moderate</td><td>1 to 3% of portfolio</td><td>Lower-weight frameworks passing without Buffett or Smith confirmation.</td></tr>
+        <tr><td>10 to 29</td><td>Early stage</td><td>0.5 to 1%</td><td>Starter position only. Continue research before adding.</td></tr>
+        <tr><td>Under 10</td><td>Insufficient</td><td>Do not initiate</td><td>Only Lynch or Graham passing. Keep looking.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout-red">
+    <div class="callout-label">Live example — Broadridge Financial Solutions (BR)</div>
+    <p>Buffett Quality: <strong>PASS +30</strong> · Terry Smith: <strong>PASS +25</strong> · Chuck Akre: <strong>PASS +20</strong> · Phil Fisher: <strong>PASS +15</strong> · Graham Deep Value: <strong>PASS +7</strong> · Lynch GARP: <strong>PASS +3</strong></p>
+    <p><strong>Composite score: 100 out of 100</strong> · Position size: 5 to 8 percent of portfolio</p>
+  </div>
+</section>
+
+<!-- Research workflow -->
+
+<section id="workflow">
+  <h2>Research workflow — eleven steps</h2>
+  <p class="lede">Two to three hours per company done properly. That is not a lot of time relative to the money you are putting to work.</p>
+
+  <ol class="steps">
+    <li><div class="step-num">01</div><div class="step-body"><h4>Run all six screens</h4><p>Identify every candidate that appears. Record name, screens passed and which specific screens.</p></div></li>
+    <li><div class="step-num">02</div><div class="step-body"><h4>Run the composite conviction calculator</h4><p>More precise than counting screens. Composite score out of 100 determines position size range.</p></div></li>
+    <li><div class="step-num">03</div><div class="step-body"><h4>Seven-question scorecard</h4><p>Five original questions plus stickiness gate (score 1 to 10, minimum 6) and pricing power gate (yes/no with evidence). See detail below.</p></div></li>
+    <li><div class="step-num">04</div><div class="step-body"><h4>Three-scenario valuation sensitivity</h4><p>Conservative, base and optimistic. If the conservative case shows negative margin of safety, do not buy regardless of base case.</p></div></li>
+    <li><div class="step-num">05</div><div class="step-body"><h4>Cyclicality check</h4><p>If the industry is cyclical, normalize earnings before trusting trailing metrics. Peak-cycle ROE flatters the screen.</p></div></li>
+    <li><div class="step-num">06</div><div class="step-body"><h4>3 to 5 years of 10-Ks</h4><p>Read in order: Business — Risk factors — MD&amp;A — Financial statements — Notes. The notes are where accounting quality issues surface.</p></div></li>
+    <li><div class="step-num">07</div><div class="step-body"><h4>Last 4 earnings calls</h4><p>Watch for guidance changes and tone shifts. What is management emphasizing? What are they not mentioning?</p></div></li>
+    <li><div class="step-num">08</div><div class="step-body"><h4>Firm research — minimum 2 reports</h4><p>Value Line, Argus, CFRA, Morningstar. See the firm research guide below.</p></div></li>
+    <li><div class="step-num">09</div><div class="step-body"><h4>Portfolio cross-reference</h4><p>Total sector exposure across both IRA and taxable. No single stock above 10% at cost. No single sector above 35%.</p></div></li>
+    <li><div class="step-num">10</div><div class="step-body"><h4>Sell discipline check</h4><p>Is the urge to sell coming from the business or the price? Write the answer before acting.</p></div></li>
+    <li><div class="step-num">11</div><div class="step-body"><h4>Size the position</h4><p>Composite score maps directly to target position size using the conviction-to-size table above.</p></div></li>
+  </ol>
+</section>
+
+<!-- Seven-question scorecard -->
+
+<section id="scorecard">
+  <h2>Step 3 detail — seven-question scorecard</h2>
+  <p class="lede">Answer all seven questions before proceeding. Write the answers down. The discipline of committing to written answers is as important as the answers themselves.</p>
+
+  <div class="entry-fields">
+    <div class="field"><label>Company</label><span class="field-line"></span></div>
+    <div class="field"><label>Symbol</label><span class="field-line"></span></div>
+    <div class="field"><label>Date</label><span class="field-line"></span></div>
+  </div>
+
+  <ul class="check-list">
+    <li>Do I understand what the business does and how it makes money?</li>
+    <li>Is debt manageable? (D/E at most 0.5 is clean. Above 1.0 needs explicit justification.)</li>
+    <li>Is the pullback from the 52-week high explainable? (Down big = opportunity or broken?)</li>
+    <li>Is growth estimated or proven? (Check actual historical earnings, not just analyst forecasts.)</li>
+    <li>Is there a reason the market is underpricing it? (Too small? Too boring? Misunderstood?)</li>
+  </ul>
+
+  <div class="callout callout-red">
+    <div class="callout-label">Question 6 — Stickiness gate</div>
+    <p>What is the realistic cost of a client switching away from this business — financially, operationally and regulatorily?</p>
+    <p>If the answer is <strong>catastrophic</strong> rather than merely expensive: stickiness is genuine. If the answer is <strong>inconvenient</strong>: stickiness is preference-based, not structural.</p>
+    <p>Apply the bottleneck test (Part III) before scoring.</p>
+    <div class="callout-fields">
+      <div class="field"><label>Stickiness score (1 = low / 10 = monopoly-grade)</label><span class="field-line"></span><span class="field-note">Minimum acceptable: 6</span></div>
+      <div class="field wide"><label>Notes</label><span class="field-line"></span></div>
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
+    <div class="callout-label">Question 7 — Pricing power gate</div>
+    <p>Has this business raised prices consistently over the past decade? Did volume hold or grow through those increases? Can management raise prices tomorrow without losing customers?</p>
+    <p>If all three answers are yes: pricing power is structural, not cyclical.</p>
+    <div class="callout-fields">
+      <div class="field"><label>Pricing power confirmed</label><span class="yn">Yes · No</span></div>
+      <div class="field wide"><label>Evidence</label><span class="field-line"></span></div>
+    </div>
+  </div>
+
+  <p class="admonition"><em>If you cannot answer all seven, do more research before proceeding.</em></p>
+</section>
+
+<!-- Firm research guide -->
+
+<section id="firm-research">
+  <h2>Step 8 detail — firm research guide</h2>
+  <p class="lede">Firm research reports give you a trained analyst's thesis, price target and risk assessment as a cross-check against your own work. Each firm has specific strengths and specific blind spots. Understanding what each report is built on makes you a better consumer of it.</p>
+  <p><strong>Minimum:</strong> two reports from different firms on every position before initiating. When two firms agree, conviction goes up. When two firms disagree sharply, understand why before investing.</p>
+
+  <div class="firm-grid">
+    <div class="firm-card">
+      <div class="firm-name">Value Line</div>
+      <div class="firm-tagline">Best for historical depth</div>
+      <p>Ten to fifteen years of standardized data in a single view. Safety and Timeliness rankings across roughly 1,700 stocks. Weight Safety over Timeliness — Timeliness is short-term oriented.</p>
+      <div class="firm-extract"><strong>What to extract:</strong> historical earnings consistency across ten-plus years. Safety rank for balance sheet health. Projected earnings three to five years out as a sanity check on your own growth assumptions.</div>
+    </div>
+
+```
+<div class="firm-card">
+  <div class="firm-name">Argus Research</div>
+  <div class="firm-tagline">Best for independent ratings</div>
+  <p>No investment banking relationships — the buy/hold/sell is not conflicted. Plain-language investment theses.</p>
+  <div class="firm-extract"><strong>What to extract:</strong> read the investment thesis first, then the risks, then the price target. Compare their valuation multiple to the quality of the business. Note upgrade and downgrade history.</div>
+</div>
+
+<div class="firm-card">
+  <div class="firm-name">CFRA</div>
+  <div class="firm-tagline">Best for accounting quality flags</div>
+  <p>Identifies companies where reported earnings may not reflect underlying cash reality. This is CFRA's most distinctive value-add and should be checked before reading the investment thesis.</p>
+  <div class="firm-extract"><strong>What to extract:</strong> check accounting and earnings quality flags first. Compare CFRA's fair value estimate against your three-scenario sensitivity table. If CFRA flags accounting concerns, investigate before proceeding regardless of screener performance.</div>
+</div>
+
+<div class="firm-card">
+  <div class="firm-name">Morningstar</div>
+  <div class="firm-tagline">Best for moat analysis</div>
+  <p>The most systematically rigorous treatment of competitive advantage available in public research. Rates businesses across five moat sources: network effects, intangible assets, switching costs, cost advantage and efficient scale. Tracks moat trend as positive, stable or negative.</p>
+  <div class="firm-extract"><strong>What to extract:</strong> moat rating and moat trend. Which of the five moat sources applies. Does the moat trend confirm your stickiness assessment from Step 3?</div>
+</div>
+```
+
+  </div>
+
+  <div class="callout callout-dark">
+    <div class="callout-label">10-K reading order</div>
+    <dl class="ten-k">
+      <dt>Item 1</dt><dd>Business — how does the company describe its competitive position?</dd>
+      <dt>Item 1A</dt><dd>Risk factors — what does management admit could go wrong?</dd>
+      <dt>Item 7</dt><dd>MD&amp;A — why did the numbers move? Read skeptically against the actual financials.</dd>
+      <dt>Item 8</dt><dd>Financial statements — revenue, gross margin trend, operating margin, free cash flow, debt.</dd>
+      <dt>Notes</dt><dd>Revenue recognition, lease obligations, litigation — where accounting quality issues surface.</dd>
+      <dt>Item 9A</dt><dd>Controls — material weaknesses flagged here are serious warning signs.</dd>
+    </dl>
+    <p class="callout-foot">Read at least 3 years of 10-Ks side by side. Trends across years matter more than any single year.</p>
+  </div>
+
+  <h3>Step 8 research report scorecard</h3>
+  <div class="entry-fields">
+    <div class="field"><label>Company</label><span class="field-line"></span></div>
+    <div class="field"><label>Date</label><span class="field-line"></span></div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data-table report-table">
+      <thead>
+        <tr><th scope="col">Report source</th><th scope="col">Rating</th><th scope="col">Price target</th><th scope="col">Core thesis / key risks</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><em>Value Line</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Argus</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>CFRA</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Morningstar</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Other: __________</em></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <ul class="check-list">
+    <li>Do at least 2 firms agree on the investment thesis?</li>
+    <li>If firms disagree, have I identified the specific assumption driving the difference?</li>
+    <li>Has CFRA flagged any accounting quality concerns?</li>
+    <li>Does the Morningstar moat rating confirm my stickiness assessment from Step 3?</li>
+  </ul>
+</section>
+
+<!-- Master watchlist -->
+
+<section id="watchlist">
+  <h2>Master watchlist</h2>
+  <p class="lede">Names that passed multiple screens and cleared the research process. Keep this list under 15 names. A longer list signals that the screens are too loose or the scorecard is being skipped.</p>
+
+  <div class="table-wrap table-wrap-scroll">
+    <table class="data-table watchlist">
+      <thead>
+        <tr>
+          <th scope="col">Symbol</th>
+          <th scope="col">Company</th>
+          <th scope="col">Score</th>
+          <th scope="col">D/E</th>
+          <th scope="col">ROE</th>
+          <th scope="col">ROIC</th>
+          <th scope="col">% below high</th>
+          <th scope="col">Conviction</th>
+          <th scope="col">Sticky</th>
+          <th scope="col">P/Pwr</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================== PART III ============================== -->
+
+<div class="part-divider" id="part-iii">
+  <div class="part-label">Part III</div>
+  <div class="part-title">The discipline layer</div>
+  <div class="part-deck">Sell, size, verify and learn</div>
+</div>
+
+<!-- Sell discipline -->
+
+<section id="sell-discipline">
+  <h2>Sell discipline</h2>
+  <p class="lede">The buy process has eleven rigorous steps. The sell decision deserves equal structure. Most investors hold too long when the thesis is broken and sell too early when the price is merely uncomfortable. The discipline is in telling the difference.</p>
+
+  <div class="callout callout-red callout-emphasis">
+    <div class="callout-label">The diagnostic question — write this down before acting</div>
+    <p class="diagnostic">Is the urge to sell coming from the <strong>business</strong> or from the <strong>price</strong>?</p>
+    <div class="diag-split">
+      <div class="diag-half"><strong>Business change</strong> &nbsp;=&nbsp; thesis broken &nbsp;=&nbsp; sell is rational.</div>
+      <div class="diag-half"><strong>Price decline</strong> &nbsp;=&nbsp; Mr. Market fearful &nbsp;=&nbsp; hold or add.</div>
+    </div>
+    <p class="diag-foot"><em>These sound similar. They are not. One is process. The other is fear.</em></p>
+  </div>
+
+  <h3>Real sell signals — any single one warrants review; two or more warrant action</h3>
+  <ul class="check-list">
+    <li>The competitive moat has narrowed — a credible competitor has emerged or switching costs have declined.</li>
+    <li>Management quality has deteriorated — capital allocation has become irrational or candor has dropped.</li>
+    <li>The business model has structurally changed in a way that undermines the original thesis.</li>
+    <li>Gross margins shrinking consistently across multiple quarters — earliest signal of pricing power erosion.</li>
+    <li>Free cash flow has diverged persistently from reported earnings — accounting quality concern.</li>
+    <li>Debt has grown to levels that threaten financial flexibility in a downturn.</li>
+    <li>The regulatory environment has permanently narrowed the addressable market or pricing power.</li>
+  </ul>
+
+  <h3>Not real sell signals — these are price events, not business events</h3>
+  <ul class="check-list strike-list">
+    <li>The stock is down and it feels painful.</li>
+    <li>Macro headlines are negative — rates, tariffs, recession fears.</li>
+    <li>Sector rotation has pulled the stock down alongside unrelated peers.</li>
+    <li>An earnings quarter missed consensus but the underlying business trend is intact.</li>
+    <li>The stock hasn't moved and feels like dead money.</li>
+  </ul>
+
+  <h3>The harvest sell — when fair value has been reached</h3>
+  <ul class="check-list">
+    <li>Price has converged with or exceeded intrinsic value across multiple frameworks.</li>
+    <li>A superior risk/reward opportunity has been identified through the framework.</li>
+    <li>Tax treatment is long-term (held over 12 months).</li>
+    <li>Redeployment capital has a specific, researched destination — not just cash.</li>
+  </ul>
+
+  <p class="admonition"><em>If all four are true: harvest is rational capital allocation, not abandonment. Trim half, hold half when conviction in the long-term moat remains intact.</em></p>
+</section>
+
+<!-- Position sizing -->
+
+<section id="position-sizing">
+  <h2>Position sizing and margin of safety</h2>
+
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Score</th><th scope="col">Conviction</th><th scope="col">Target size</th><th scope="col">Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>75 to 100</td><td>Extremely high</td><td>5 to 8% of portfolio</td><td>Full conviction. Stickiness and pricing power confirmed.</td></tr>
+        <tr><td>50 to 74</td><td>Strong</td><td>3 to 5% of portfolio</td><td>Multiple high-weight frameworks agree. One gap remains.</td></tr>
+        <tr><td>30 to 49</td><td>Moderate</td><td>1 to 3% of portfolio</td><td>Worth owning at reduced size pending further confirmation.</td></tr>
+        <tr><td>10 to 29</td><td>Early stage</td><td>0.5 to 1%</td><td>Starter position only.</td></tr>
+        <tr><td>Speculative</td><td>Pre-commercial</td><td>Under 0.5%</td><td>Sized to survive being completely wrong.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Portfolio-level rules</h3>
+  <ul class="check-list">
+    <li>No single stock above 10% of total portfolio value at cost.</li>
+    <li>No single sector above 35% across all holdings including ETFs.</li>
+    <li>Size IRA and taxable together — total exposure is what matters. Favor the IRA for high-turnover or high-dividend names and the taxable account for long-hold compounders — tax treatment is part of sizing, not only of selling.</li>
+    <li>Speculative positions capped at 2% of total portfolio combined.</li>
+    <li>Before adding to an existing position: run the full scorecard again from scratch.</li>
+  </ul>
+
+  <h3>Margin of safety minimums</h3>
+  <div class="callout callout-red">
+    <div class="callout-label">Formula</div>
+    <p class="formula">Margin of Safety &nbsp;=&nbsp; (Intrinsic Value − Market Price) / Intrinsic Value</p>
+    <ul class="mos-list">
+      <li><span class="mos-score">Score 75 to 100</span><span class="mos-req">15% minimum margin of safety required before initiating</span></li>
+      <li><span class="mos-score">Score 50 to 74</span><span class="mos-req">25% minimum margin of safety required before initiating</span></li>
+      <li><span class="mos-score">Score 30 to 49</span><span class="mos-req">35% minimum margin of safety required before initiating</span></li>
+    </ul>
+    <p class="mos-foot">If the conservative scenario shows negative margin of safety: <strong>do not buy</strong>, regardless of base or optimistic case.</p>
+  </div>
+
+  <h3>Three-scenario valuation table</h3>
+  <p><em>Complete before initiating any new position.</em></p>
+
+  <div class="entry-fields">
+    <div class="field"><label>Company</label><span class="field-line"></span></div>
+    <div class="field"><label>Date</label><span class="field-line"></span></div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data-table scenario-table">
+      <thead>
+        <tr><th scope="col">Assumption</th><th scope="col">Conservative</th><th scope="col">Base case</th><th scope="col">Optimistic</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><em>Revenue growth rate (annual)</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Operating margin</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Discount rate</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Terminal growth rate</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Intrinsic value estimate</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Current market price</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Margin of safety</em></td><td></td><td></td><td></td></tr>
+        <tr><td><em>Decision</em></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Cyclicality -->
+
+<section id="cyclicality">
+  <h2>Cyclicality adjustment</h2>
+  <p class="lede">Some businesses look exceptional on trailing metrics at the peak of their cycle and terrible at the trough. This check must be completed before trusting screen output on any cyclical business.</p>
+
+  <ul class="check-list">
+    <li>Does the industry have documented boom-and-bust cycles? (Energy, semiconductors, financials, housing and industrials are all cyclical.)</li>
+    <li>Has revenue varied by more than 20 percent peak to trough in any of the past three cycles?</li>
+    <li>Is current ROE or ROIC meaningfully above the 10-year average? (Possible cycle peak — be cautious.)</li>
+    <li>Is current ROE or ROIC meaningfully below the 10-year average? (Possible cycle trough — trailing screen may be too harsh.)</li>
+  </ul>
+
+  <div class="callout callout-dark">
+    <div class="callout-label">Normalization formula</div>
+    <p class="formula">Normalized earnings &nbsp;=&nbsp; average earnings across a full cycle (peak and trough combined)<br>Normalized P/E &nbsp;=&nbsp; Current Price / Normalized EPS</p>
+    <p>If normalized P/E passes but trailing P/E fails: business may be at a trough. Trailing screen is misleading. Investigate further.</p>
+    <p>If trailing P/E passes but normalized P/E fails: business may be at a peak. Apply extra margin of safety.</p>
+  </div>
+</section>
+
+<!-- Bottleneck -->
+
+<section id="bottleneck">
+  <h2>Bottleneck test</h2>
+  <p class="lede">Stickiness describes how hard it is to leave. The bottleneck test asks something more specific and more rigorous: is this company merely participating in an ecosystem, or is it the route that others increasingly <em>must</em> use?</p>
+
+  <p>A strategic bottleneck requires two things simultaneously: a unique solution to an underlying technical or operational constraint, and control over access to that solution. Stickiness without bottleneck control is valuable but vulnerable. Stickiness with bottleneck control is the stronger position.</p>
+
+  <div class="callout callout-red">
+    <div class="callout-label">Bottleneck test — answer both before scoring stickiness</div>
+    <ol class="chain">
+      <li>Does this business solve a real constraint that others in the system cannot easily work around?</li>
+      <li>Does this business control access to that solution — not just provide it, but own the chokepoint?</li>
+    </ol>
+    <div class="bottleneck-matrix">
+      <div><strong>Both yes:</strong> score can reach 9 or 10.</div>
+      <div><strong>First only:</strong> stickiness is real but capped — score 6 to 8.</div>
+      <div><strong>Neither:</strong> stickiness is preference-based, not structural — score below 6. Investigate carefully.</div>
+    </div>
+  </div>
+
+  <div class="callout callout-blue">
+    <div class="callout-label">Important caution</div>
+    <p>Morningstar tracks moat trend as positive, stable or negative — meaning competitive position can strengthen or deteriorate over time. A bottleneck confirmed at purchase is not a permanent fact. The wall in the rubber band analogy can move. Not often, but it can.</p>
+  </div>
+
+  <h3>Disruptor exception — five-front evidence checklist</h3>
+  <p>The framework allows early positions in businesses whose moat is still forming, sized at most 0.5 percent. Verify all five of the following before initiating any speculative position.</p>
+  <ul class="check-list">
+    <li><strong>Bottleneck formation:</strong> solving a real system constraint or increasingly controlling access to the solution — not merely growing quickly inside a competitive layer.</li>
+    <li><strong>Hardening network effects:</strong> the product is becoming more useful as participation grows, and the market structure is moving toward concentration rather than fragmentation.</li>
+    <li><strong>Falling multihoming willingness:</strong> users, suppliers or complementors are finding it harder or less attractive to spread activity across competing platforms.</li>
+    <li><strong>Economic proof, not just narrative proof:</strong> pricing power and unit economics are improving as the network matures. Strong network effects should ultimately produce better margins, not just a bigger top line.</li>
+    <li><strong>Story-to-numbers discipline:</strong> the bull case can be translated into explicit assumptions about market size, share, margins, reinvestment, risk and realistic failure probability. If the thesis cannot survive that translation, it is narrative, not analysis.</li>
+  </ul>
+</section>
+
+<!-- Quarterly check -->
+
+<section id="quarterly-check">
+  <h2>Quarterly moat trend check</h2>
+  <p class="lede">Buying a business with a strong moat is the entry decision. Verifying that the moat is still intact is an ongoing obligation. After reading each quarterly earnings call transcript for a core holding, answer these four questions in writing.</p>
+
+  <ul class="check-list">
+    <li><strong>Is the chokepoint still owned?</strong> Has any competitor moved meaningfully closer to displacing the bottleneck position since last quarter?</li>
+    <li><strong>Is pricing power intact?</strong> Did the business raise prices in the past year? Did volume hold or grow through that increase?</li>
+    <li><strong>Are excess returns still being defended?</strong> Is ROIC stable or expanding, or compressing quarter over quarter?</li>
+    <li><strong>Is the moat trend positive, stable or negative?</strong> Assign one label to each core holding each quarter and note if it has changed.</li>
+  </ul>
+
+  <div class="callout callout-red callout-emphasis">
+    <div class="callout-label">Moat trend deterioration rule</div>
+    <ol class="deterioration">
+      <li><span class="det-q">One consecutive quarter</span> of deterioration = yellow flag.</li>
+      <li><span class="det-q">Two consecutive quarters</span> = red flag. Investigate immediately.</li>
+      <li><span class="det-q">Three consecutive quarters</span> = sell signal regardless of current price.</li>
+    </ol>
+    <p class="det-foot">The business has changed. The thesis no longer holds. Act on the business, not the price.</p>
+  </div>
+</section>
+
+<!-- Failure log -->
+
+<section id="failure-log">
+  <h2>Failure log</h2>
+  <p class="lede">Complete for any position closed at a loss greater than 15 percent, or any position where the thesis broke regardless of return. The goal is not to catalogue regret — it is to identify systematic errors in the framework before they compound.</p>
+
+  <h3>Entry template</h3>
+  <div class="table-wrap">
+    <table class="data-table entry-template">
+      <tbody>
+        <tr><th scope="row">Company and symbol</th><td></td></tr>
+        <tr><th scope="row">Composite conviction score at entry</th><td></td></tr>
+        <tr><th scope="row">Return realized</th><td></td></tr>
+        <tr><th scope="row">Original thesis (one sentence)</th><td></td></tr>
+        <tr><th scope="row">What actually happened</th><td></td></tr>
+        <tr><th scope="row">Business failure or price failure?</th><td></td></tr>
+        <tr><th scope="row">Which screen or question failed?</th><td></td></tr>
+        <tr><th scope="row">Was stickiness overstated?</th><td></td></tr>
+        <tr><th scope="row">Was pricing power assumed not confirmed?</th><td></td></tr>
+        <tr><th scope="row">Was cyclicality underestimated?</th><td></td></tr>
+        <tr><th scope="row">Was the margin of safety adequate?</th><td></td></tr>
+        <tr><th scope="row">What would I change in the framework?</th><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Pattern tracker</h3>
+  <p>After three or more entries, review them together. Patterns in failure are more instructive than individual mistakes.</p>
+
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th scope="col">Failure pattern</th><th scope="col">Count</th><th scope="col">Framework adjustment made</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><em>Cyclicality underestimated</em></td><td></td><td></td></tr>
+        <tr><td><em>Stickiness overstated</em></td><td></td><td></td></tr>
+        <tr><td><em>Thesis drift</em></td><td></td><td></td></tr>
+        <tr><td><em>Margin of safety insufficient</em></td><td></td><td></td></tr>
+        <tr><td><em>Management quality misjudged</em></td><td></td><td></td></tr>
+        <tr><td><em>Other:</em></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Full sequence -->
+
+<section id="full-sequence">
+  <h2>The full research sequence, in order</h2>
+  <p class="lede">Every element of Parts II and III in one view. The sequence is not optional — steps build on each other.</p>
+
+  <div class="callout callout-dark callout-emphasis">
+    <div class="callout-label">Complete workflow — version 5.4</div>
+    <ol class="workflow-list">
+      <li><span class="wf-num">Step 1</span><span class="wf-text">Run all six screens — identify candidates.</span></li>
+      <li><span class="wf-num">Step 2</span><span class="wf-text">Run the composite conviction calculator — rank by weighted score.</span></li>
+      <li><span class="wf-num">Step 3</span><span class="wf-text">Seven-question scorecard — stickiness and pricing power gates included.</span></li>
+      <li><span class="wf-num">Step 4</span><span class="wf-text">Three-scenario valuation sensitivity — conservative, base and optimistic.</span></li>
+      <li><span class="wf-num">Step 5</span><span class="wf-text">Cyclicality check — normalize earnings if the industry is cyclical.</span></li>
+      <li><span class="wf-num">Step 6</span><span class="wf-text">3 to 5 years of 10-Ks — business history and accounting quality.</span></li>
+      <li><span class="wf-num">Step 7</span><span class="wf-text">Last 4 earnings calls — where is the business right now?</span></li>
+      <li><span class="wf-num">Step 8</span><span class="wf-text">Minimum 2 firm research reports — Value Line, Argus, CFRA, Morningstar.</span></li>
+      <li><span class="wf-num">Step 9</span><span class="wf-text">Portfolio cross-reference — concentration and diversification check.</span></li>
+      <li><span class="wf-num">Step 10</span><span class="wf-text">Sell discipline check — business or price?</span></li>
+      <li><span class="wf-num">Step 11</span><span class="wf-text">Size the position — composite score maps directly to target size.</span></li>
+    </ol>
+    <p class="wf-foot">
+      Apply the bottleneck test before scoring stickiness on any candidate.<br>
+      Run the quarterly moat trend check after every earnings call on core holdings.<br>
+      Complete a failure log entry within 30 days of any closed loss over 15 percent.
+    </p>
+  </div>
+</section>
+
+<!-- End note -->
+
+<section id="end-note">
+  <h2>End note — keeping the framework alive</h2>
+  <p class="lede">The theory and the practice drift out of sync over time. Four habits keep them aligned.</p>
+
+  <ul class="clean-list">
+    <li>Update screen thresholds periodically as market valuations change.</li>
+    <li>Reread one Part I chapter each month — the frameworks need revisiting because markets change how they price things even when the underlying business logic does not.</li>
+    <li>Keep the master watchlist under 15 names — a longer list signals the screens are too loose or the scorecard is being skipped.</li>
+    <li>Review the failure log quarterly — a framework that never updates in response to its own mistakes is not a living document.</li>
+  </ul>
+</section>
+
+<footer class="colophon">
+  <div class="colophon-rule"></div>
+  <p class="colophon-author">Will Dowd</p>
+  <p class="colophon-meta">Investment Framework Workbook · Version 5.4 · April 2026</p>
+</footer>
+
+</main>
+
+<script>
+// TOC toggle for mobile
+const tocToggle = document.getElementById('tocToggle');
+const toc = document.getElementById('toc');
+tocToggle.addEventListener('click', () => {
+  const open = toc.classList.toggle('open');
+  tocToggle.classList.toggle('open', open);
+  tocToggle.setAttribute('aria-expanded', String(open));
+});
+
+// Close TOC on link click (mobile)
+toc.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    if (window.innerWidth < 1024) {
+      toc.classList.remove('open');
+      tocToggle.classList.remove('open');
+      tocToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+});
+
+// Highlight current section in TOC
+const sections = Array.from(document.querySelectorAll('main section[id], main article[id], main .part-divider[id]'));
+const tocLinks = new Map();
+toc.querySelectorAll('a[href^="#"]').forEach(a => {
+  const id = a.getAttribute('href').slice(1);
+  tocLinks.set(id, a);
+});
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    const link = tocLinks.get(entry.target.id);
+    if (!link) return;
+    if (entry.isIntersecting) {
+      tocLinks.forEach(l => l.classList.remove('current'));
+      link.classList.add('current');
+    }
+  });
+}, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+
+sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
